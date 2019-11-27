@@ -6,7 +6,7 @@ Specifically, after calling `SKProductsRequest(productIdentifiers: ["your_iap_id
 
 `Error Domain=ASDErrorDomain Code=507 "Error decoding object" UserInfo={NSLocalizedDescription=Error decoding object, NSLocalizedFailureReason=Attempted to decode store response}
 `
-This bug can only be reproduced on an iPad (simulated) running iOS 13.2.3 and Xcode Version 11.2.1 (11B500).
+This bug can only be reproduced on an iPad (simulated) running iOS 13.2.3 and Xcode Version 11.2.1 (11B500). Please note that it only occurs when fetching an auto-renewable subscription.
 
 *To reproduce this error*:
 
@@ -20,3 +20,9 @@ This bug can only be reproduced on an iPad (simulated) running iOS 13.2.3 and Xc
 8. Run the app again
 9. Tap "Go"
 10. You will see an error logged to the console: `Error Domain=ASDErrorDomain Code=507 "Error decoding object" UserInfo={NSLocalizedDescription=Error decoding object, NSLocalizedFailureReason=Attempted to decode store response}`
+
+Note that after the you restart the iPad, the fetching will work.
+
+More posts about this bug:
+https://stackoverflow.com/questions/58020258/requesting-an-in-app-purchase-in-ios-13-fails
+https://www.reddit.com/r/iOSProgramming/comments/dbw5b8/my_experience_on_having_my_app_rejected_twice/
