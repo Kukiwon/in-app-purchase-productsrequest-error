@@ -13,6 +13,7 @@
 		E5DDECC4238E809100FE48E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5DDECC2238E809100FE48E7 /* Main.storyboard */; };
 		E5DDECC6238E809400FE48E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5DDECC5238E809400FE48E7 /* Assets.xcassets */; };
 		E5DDECC9238E809400FE48E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5DDECC7238E809400FE48E7 /* LaunchScreen.storyboard */; };
+		E5DDECD2238E80D500FE48E7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DDECD1238E80D500FE48E7 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E5DDECC5238E809400FE48E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5DDECC8238E809400FE48E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5DDECCA238E809400FE48E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5DDECD1238E80D500FE48E7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5DDECD2238E80D500FE48E7 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				E5DDECBB238E809100FE48E7 /* TestInAppPurchases */,
 				E5DDECBA238E809100FE48E7 /* Products */,
+				E5DDECD0238E80D500FE48E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				E5DDECCA238E809400FE48E7 /* Info.plist */,
 			);
 			path = TestInAppPurchases;
+			sourceTree = "<group>";
+		};
+		E5DDECD0238E80D500FE48E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5DDECD1238E80D500FE48E7 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
