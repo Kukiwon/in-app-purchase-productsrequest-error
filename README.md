@@ -24,5 +24,6 @@ This bug can only be reproduced on an iPad (simulated) running iOS 13.2.3 and Xc
 Note that after the you restart the iPad, the fetching will work.
 
 More posts about this bug:
-https://stackoverflow.com/questions/58020258/requesting-an-in-app-purchase-in-ios-13-fails
-https://www.reddit.com/r/iOSProgramming/comments/dbw5b8/my_experience_on_having_my_app_rejected_twice/
+
+* https://stackoverflow.com/questions/58020258/requesting-an-in-app-purchase-in-ios-13-fails
+* https://www.reddit.com/r/iOSProgramming/comments/dbw5b8/my_experience_on_having_my_app_rejected_twice/
