@@ -6,7 +6,7 @@ Specifically, after calling `SKProductsRequest(productIdentifiers: ["your_iap_id
 
 `Error Domain=ASDErrorDomain Code=507 "Error decoding object" UserInfo={NSLocalizedDescription=Error decoding object, NSLocalizedFailureReason=Attempted to decode store response}
 `
-This bug can only be reproduced on an iPad (simulated) running iOS 13.2.3 and Xcode Version 11.2.1 (11B500). Please note that it only occurs when fetching an auto-renewable subscription.
+This bug can be reproduced on an iPad (simulated) running iOS 13.2.3 and Xcode Version 11.2.1 (11B500). Please note that it only occurs when fetching an auto-renewable subscription.
 
 *To reproduce this error*:
 
